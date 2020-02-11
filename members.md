@@ -22,6 +22,3 @@
 ## Masters Students
 
 -   Giuliano Belinassi (University of São Paulo)
-
-
-## Undergrad Students
