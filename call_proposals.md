@@ -42,5 +42,3 @@ sent by **February 29th 2020**.
 Project Coordinator: Prof. Dr. Alfredo Goldman
 
 Project Manager: Pedro Bruel
-
-[Back to Hompage](index.html)

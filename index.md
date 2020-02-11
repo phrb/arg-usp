@@ -16,6 +16,6 @@ available for undergrad, masters and PhD students.
 
 ## Contents
 
-1.  [Call for Proposals](call_proposals.html)
-2.  [Members](members.html)
-3.  [Concepts for Autotuning](concepts_autotuning.html)
+-   [Call for Proposals](call_proposals.html)
+-   [Members](members.html)
+-   [Concepts for Autotuning](concepts_autotuning.html)

@@ -1,0 +1,27 @@
+
+
+# Members
+
+
+## Researchers
+
+-   Alfredo Goldman (University of São Paulo)
+-   Arnaud Legrand (CNRS)
+-   Brice Videau (Argonne National Laboratory)
+-   Cong Xu (Hewlett Packard Labs)
+-   Dejan Milojicic (Hewlett Packard Labs)
+-   Glaucimar Aguiar (Hewlett Packard Enterprise)
+-   Sai Rahul Chalamalasetti (Hewlett Packard Labs)
+
+
+## PhD Students
+
+-   Pedro Bruel (University of São Paulo, University of Grenoble Alpes)
+
+
+## Masters Students
+
+-   Giuliano Belinassi (University of São Paulo)
+
+
+## Undergrad Students

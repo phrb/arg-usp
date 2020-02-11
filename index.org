@@ -14,6 +14,6 @@ We  currently have  an  open call  for proposals,  with  5 funding  scholarships
 available for undergrad, masters and PhD students.
 
 ** Contents
-1. [[file:call_proposals.html][Call for Proposals]]
-2. [[file:members.html][Members]]
-3. [[file:concepts_autotuning.html][Concepts for Autotuning]]
+- [[file:call_proposals.html][Call for Proposals]]
+- [[file:members.html][Members]]
+- [[file:concepts_autotuning.html][Concepts for Autotuning]]

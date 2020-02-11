@@ -4,7 +4,6 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+OPTIONS: toc:nil TeX:t LaTeX:t
 
-
 * Applications of Program Autotuning: Call for Proposals for Funding for Undergraduates, Masters, and PhD Students
 We are glad to  announce a call for masters and PhD  scholarship proposals for a
 research project, done in the context  of a collaboration between the University
@@ -46,5 +45,3 @@ sent by *February 29th 2020*.
 Project Coordinator: Prof. Dr. Alfredo Goldman
 
 Project Manager: Pedro Bruel
-
-[[file:index.html][Back to Hompage]]
