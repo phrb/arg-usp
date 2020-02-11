@@ -34,14 +34,17 @@ September 2020. Students currently without funding are preferred.
 
 We invite  interested students to  submit a CV  and a cover  letter, summarizing
 their problem and  their interest in applying optimization techniques  to it, by
-February  20th 2020.  We assume  your advisor  is aware  and consents  with your
+*February  20th 2020*.  We assume  your advisor  is aware  and consents  with your
 participation in this project. Accepted candidates  will be invited to a two-day
 workshop at IME/USP, where techniques and libraries for statistical optimization
 and design  of experiments will  be presented, and  candidates will be  asked to
 give short presentations about their work. Final acceptance notification will be
-sent by February 29th.
+sent by *February 29th 2020*.
+
+*Submit your proposal by Feb. 20th 2020 to =phrb@ime.usp.br=*
 
 Project Coordinator: Prof. Dr. Alfredo Goldman
+
 Project Manager: Pedro Bruel
 
 [[file:index.html][Back to Hompage]]
