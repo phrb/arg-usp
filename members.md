@@ -28,4 +28,4 @@
 ## Undergrad Students
 
 -   Emanuel Lima (University of São Paulo)
-    -   Autotuning Rust Compiler Optimizations
+    -   Autotuning rustc and LLVM Optimizations
