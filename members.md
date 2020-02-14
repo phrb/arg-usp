@@ -22,8 +22,10 @@
 ## Masters Students
 
 -   Giuliano Belinassi (University of São Paulo)
+    -   Autotuning GCC Flag Selection and Configuration
 
 
 ## Undergrad Students
 
 -   Emanuel Lima (University of São Paulo)
+    -   Autotuning Rust Compiler Optimizations

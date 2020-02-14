@@ -1,6 +1,50 @@
 #+STARTUP: overview indent inlineimages logdrawer
 #+OPTIONS: toc:nil TeX:t LaTeX:t
 
+
+* Autotuning for GCC
+** Some References
+- https://en.wikipedia.org/wiki/MILEPOST_GCC
+- https://github.com/ctuning
+- https://github.com/ctuning/ck/wiki
+** Ideas
+*** Benchmark
+- Ofast
+  - unsafe optim
+  - error rate
+*** Search Space
+- Focus on *flags* at first:
+  - Explore *numerical, categorical parameters* later
+  - LTO
+- Which flags should be chosen?
+- Baselines:
+  - O0, ..., O3, (Ofast, ...?)
+  - Random sample of flag configurations
+*** Metrics / Search Objectives
+- Performance, memory, binary size, ...
+- Focus on *one metric* first
+  - Pareto frontier of the others
+- We could try something like a normalized, weighted sum of metrics
+*** Experiments and Analysis Plan
+- Plan a screening experiment: Identify Main Effects
+- Leverage expert knowledge plus screening to plan next experiments
+- Low-discrepancy sampling, linear model, ANOVA
+- Gaussian Process Regression?
+** Plan
+1. Define a benchmark
+   - Firefox
+   - SPEC
+   - BLAS Lapack
+2. Define metrics
+3. Define the search space
+   1. Flags
+   2. Others
+4. Start experiments
+   1. Random sample
+   2. Screening
+   3. Linear models + ANOVA
+   4. Linear models + ANOVA + Optimal Design
+   5. Gaussian Process Regression
 * Autotuning on the Rust Language
   - Rust is compiled by LLVM
   - Rust compilation is slow (references)
