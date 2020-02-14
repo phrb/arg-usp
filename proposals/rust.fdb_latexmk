@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1581693458 "rust.tex" "rust.pdf" "rust" 1581693458
+  "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1572595918 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1572595918 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/share/texmf-dist/tex/latex/base/article.cls" 1572595918 19931 9ab70b303cca263e0120c205e98dee99 ""
+  "/usr/share/texmf-dist/tex/latex/base/size11.clo" 1572595918 8421 938fa22cdc088594d8815cd38fcf77c0 ""
+  "/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty" 1572595918 5950 e9cdc09d1426cd2e1a36fffb0c90bfa9 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1581012570 8044938 ce65feb6189f56ef932820cad138693a ""
+  "rust.aux" 1581693458 8 a94a2480d3289e625eea47cd1b285758 ""
+  "rust.tex" 1581693458 2038 df9af22b494eb0bb7ab95def8b5eb3ac ""
+  (generated)
+  "rust.pdf"
+  "rust.log"

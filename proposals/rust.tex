@@ -1,0 +1,63 @@
+% Created 2020-02-14 Fri 12:17
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+
+\usepackage{booktabs}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.3 (Org mode 9.2.5)},
+ pdflang={English}}
+\begin{document}
+
+
+\section{Autotuning on the Rust Language}
+\label{sec:org4b76b4a}
+\begin{itemize}
+\item Rust is compiled by LLVM
+\item Rust compilation is slow (references)
+\item First idea:
+\begin{itemize}
+\item Search space:
+\begin{itemize}
+\item LLVM Passes and Pass parameters (flags)
+\item rustc passes and parameters (flags)
+\end{itemize}
+\item Metrics:
+\begin{itemize}
+\item Decreasing the compilation time for Rust code
+\item Speedup Rust code
+\item Memory usage (not now?)
+\end{itemize}
+\end{itemize}
+\item LLVM Passes:
+\begin{itemize}
+\item \url{https://llvm.org/docs/Passes.html}
+\item \url{https://github.com/phrb/generate-llvm-pass-list}
+\end{itemize}
+\item MIR could help generate an LLVM IR that is easier to optimize:
+\begin{itemize}
+\item How to measure if the IR is easier to optimize?
+\item How to optimize MIR?
+\item What are the parameters?
+\end{itemize}
+\end{itemize}
+\subsection{Some Papers About Rust (Don't spend too much time here.)}
+\label{sec:orgf1defd6}
+\begin{itemize}
+\item \url{https://dl.acm.org/doi/pdf/10.1145/3124680.3124717}
+\item \url{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6650903}
+\item \url{https://dl.acm.org/doi/pdf/10.1145/3102980.3103006}
+\item \url{https://dl.acm.org/doi/pdf/10.1145/3241624.2926707}
+\item \url{https://arxiv.org/pdf/1505.07383.pdf}
+\item \url{https://pdfs.semanticscholar.org/fb4e/67cd96b84723324a49f398579da09b785913.pdf}
+\item \url{https://dl.acm.org/doi/pdf/10.1145/3009837.3009867}
+\item \url{https://storage.googleapis.com/pub-tools-public-publication-data/pdf/1c082b766d8e14b54e36e37c9fc3ebbe8b4a72dd.pdf}
+\item \url{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7163218}
+\item \url{https://dl.acm.org/doi/pdf/10.1145/2889160.2889229}
+\end{itemize}
+\end{document}
