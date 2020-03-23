@@ -23,7 +23,7 @@
 
 -   Giuliano Belinassi (University of São Paulo)
     -   Autotuning GCC Flag Selection and Configuration
--   Carlos Enrique Paucar Farfán
+-   Carlos Enrique Paucar Farfán (University of São Paulo)
     -   Autotuning Machine Learning Hyperparameters
 
 
