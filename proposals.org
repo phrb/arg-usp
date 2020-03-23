@@ -46,6 +46,8 @@
    4. Linear models + ANOVA + Optimal Design
    5. Gaussian Process Regression
 * Autotuning on the Rust Language
+** ERAD paper
+*** Initial Discussion
   - Rust is compiled by LLVM
   - Rust compilation is slow (references)
   - First idea:
@@ -63,7 +65,7 @@
     - How to measure if the IR is easier to optimize?
     - How to optimize MIR?
     - What are the parameters?
-** Some Papers About Rust (Don't spend too much time here.)
+**** Some Papers About Rust (Don't spend too much time here.)
 - https://dl.acm.org/doi/pdf/10.1145/3124680.3124717
 - https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6650903
 - https://dl.acm.org/doi/pdf/10.1145/3102980.3103006
@@ -74,3 +76,91 @@
 - https://storage.googleapis.com/pub-tools-public-publication-data/pdf/1c082b766d8e14b54e36e37c9fc3ebbe8b4a72dd.pdf
 - https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7163218
 - https://dl.acm.org/doi/pdf/10.1145/2889160.2889229
+*** Draft
+1. Autotuning
+   - HPC archictures are costly to optimize
+     - Require an expert
+   - Autotuning is one way of automatically optimizing HPC programs
+   - Compiler flags are one way to do autotuning
+     - Some references
+       - https://en.wikipedia.org/wiki/MILEPOST_GCC
+         - https://github.com/ctuning
+         - https://github.com/ctuning/ck/wiki
+       - OpenTuner, Orio, Petabricks, FFTW, ATLAS, PhiPAC
+2. The Rust Language
+   - Short description of Rust
+   - Describe compilation flow (high level view)
+   - Present the problem: compilation takes too long!
+3. LLVM IR and Passes
+   - Short description of LLVM
+   - Intermediate Representation
+   - Optimization passes and IR optimization (the opt program http://llvm.org/docs/CommandGuide/opt.html)
+     - Describe 2 or 3 flags or passes and their effects
+4. Choosing LLVM Passes to Speedup Rust's Compilation
+   - What is the search space?
+   - Estimate how many valid configurations there are (focus on boolean flags at first)
+   - What is the target optimization metric?
+   - (Very) Brief discussions of autotuning techniques (I can help here!)
+     - We will apply Design of Experiments techniques to this problem, but other techniques exist
+     - Metaheuristics (example: Simulated Annealing)
+     - Statistical modeling (ex. Linear Model, design of experiments)
+     - Machine Learning: might be possible to use
+5. Expected Results
+   - What will the experiment consist of?
+     - Start with boolean flags, later tackle more complex spaces
+     - You could make a flow chart showing the components and the process of the experiment
+   - What do we expect to see?
+     - How could flags impact compilation time?
+   - Analysis of results: Screening, then Optimal Design with ANOVA, linear model
+*** Problem Components
+**** Search Space: LLVM Flags/Passes
+- Configurations of the opt program
+  - What else?
+- Which ones?
+  - Not all of them impact performance
+***** Flags
+- constprop: simple constant propagation
+- instcombine: combine redundant instructions
+- aggressive-instcombine: combine expression patterns
+- jump-threading: jump threading
+- lcssa: loop-closed ssa form pass
+- licm: loop invariant code motion
+- loop-deletion: delete dead loops
+- loop-extract: extract loops into new functions
+- loop-reduce: loop strength reduction
+- loop-rotate: rotate loops
+- loop-simplify: canonicalize natural loops
+- loop-unroll: unroll loops
+- loop-unroll-and-jam: unroll and jam loops
+- loop-unswitch: unswitch loops
+- mem2reg: promote memory to register
+- memcpyopt: memcpy optimization
+**** Benchmark:
+- BLAS? As a baseline?
+- Linear Algebra programs
+- Sorting algorithms
+- Rodinia?
+**** Performance Metric:
+- Execution time
+- Compilation time?
+***** CI
+- https://en.wikipedia.org/wiki/Confidence_interval#Conceptual_basis
+- http://www.stat.ucla.edu/~rgould/110as02/bsci
+**** Optimization Algorithms:
+- Random sample
+- Screening
+- Linear models + ANOVA
+- Linear models + ANOVA + Optimal Design
+- Gaussian Process Regression
+*** Next Steps
+- Install Julia, Jupyter Notebook, IJulia
+- Install ExperimentalDesign
+- Run three experiments:
+  - Full Factorial
+  - Random Design
+  - Screening Design
+- Fit linear models:
+  - Check for main effects
+  - Compare Random Sampling and Screening
+- Optimization experiments:
+  - What's the mean of the best configuration found by repeated random sampling?
