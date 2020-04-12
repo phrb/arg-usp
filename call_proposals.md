@@ -1,6 +1,6 @@
 
 
-# Applications of Program Autotuning: Call for Proposals for Funding for Undergraduates, Masters, and PhD Students
+# (**Closed**) Applications of Program Autotuning: Call for Proposals for Funding for Undergraduates, Masters, and PhD Students
 
 We are glad to  announce a call for masters and PhD  scholarship proposals for a
 research project, done in the context  of a collaboration between the University

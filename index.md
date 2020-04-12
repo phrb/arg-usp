@@ -10,12 +10,9 @@ statistical optimization methods.
 Here you  will find a list  of our members and  their work, as well  as links to
 autotuning and statistical libraries, books and interesting papers.
 
-We  currently have  an  open call  for proposals,  with  5 funding  scholarships
-available for undergrad, masters and PhD students.
-
 
 ## Contents
 
--   [Call for Proposals](call_proposals.html)
 -   [Members](members.html)
 -   [Concepts for Autotuning](concepts_autotuning.html)
+-   (**Closed**) [Call for Proposals](call_proposals.html)
