@@ -16,6 +16,7 @@ tree](res/tree/tree.pdf):
 
 1.  Search Heuristics
     -   Does not estimate a surrogate function
+    -   There is no model, underlying hypotheses guide exploration
     -   Examples: Simulated Annealing, Gradient Descent,
         Genetic Algorithms
     -   Introductory book: [Stochastic Local Search: Foundations & Applications](https://www.amazon.fr/Stochastic-Local-Search-Foundations-Applications/dp/1558608729)
