@@ -16,7 +16,7 @@
 
 ## PhD Students
 
--   Pedro Bruel (University of São Paulo, University of Grenoble Alpes)
+-   [Pedro Bruel](https://phrb.github.io/) (University of São Paulo, University of Grenoble Alpes)
     -   Developing Autotuning and Experimental Design tools in the Julia Language
     -   Autotuning Per-Layer Quantization for Deep Neural Networks
 
@@ -27,9 +27,9 @@
     -   Autotuning GCC Flag Selection and Configuration
 -   Carlos Enrique Paucar Farfán (University of São Paulo)
     -   Autotuning Machine Learning Hyperparameters
--   Alan Barzilay
+-   Alan Barzilay (University of São Paulo)
     -   Autotuning Clustering Algorithms for Population-Based Analysis (placeholder name)
--   Luciano Siqueira
+-   Luciano Siqueira (University of São Paulo)
     -   Autotuning the PETSc library for CUDA (placeholder name)
 
 
