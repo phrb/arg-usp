@@ -13,6 +13,6 @@ autotuning and statistical libraries, books and interesting papers.
 
 ## Contents
 
+-   [Autotuning Methods](concepts_autotuning.html)
 -   [Members](members.html)
--   [Concepts for Autotuning](concepts_autotuning.html)
 -   (**Closed**) [Call for Proposals](call_proposals.html)
