@@ -25,6 +25,7 @@ tree]]:
 2. Statistical Learning
    - Estimates a surrogate function
    - Introductory book: [[https://link.springer.com/book/10.1007/978-1-4614-7138-7][An Introduction to Statistical Learning]] (*free during COVID-19*)
+     - [[https://www.edx.org/course/statistical-learning][Online course by the authors]] (*free during COVID-19*)
    - More in depth: [[https://link.springer.com/book/10.1007/978-0-387-84858-7][The Elements of Statistical Learning]] (*free during COVID-19*)
    - Parametric Learning
      - Higher biases, simpler models, focus on finding relationships between
