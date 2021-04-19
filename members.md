@@ -23,17 +23,18 @@
 
 ## Masters Students
 
--   Giuliano Belinassi (University of São Paulo)
-    -   Autotuning GCC Flag Selection and Configuration
--   Carlos Enrique Paucar Farfán (University of São Paulo)
-    -   Autotuning Machine Learning Hyperparameters
--   Alan Barzilay (University of São Paulo)
-    -   Autotuning Clustering Algorithms for Population-Based Analysis (placeholder name)
--   Luciano Siqueira (University of São Paulo)
-    -   Autotuning the PETSc library for CUDA (placeholder name)
+-   **Luciano Antonio  Siqueira**: Configuring  the PETSc Library  for Heterogeneous
+    Computing
+-   **Giuliano Augusto  Faulin Belinassi**:  Parallelized Compile Time  Modeling for
+    GCC
+-   **Carlos  Enrique Paucar  Farfán**:  Hyperparameter Tuning  for Cognitive  State
+    Classification
+-   **Alan Barzilay**: Optimizing Clustering Algorithms for Staying Point Extraction
+-   **Vinícius Bitencourt  Matos**: Optimizing  Remainder and Kernel  Computation in
+    Ontologies
+-   **Nathan Benedetto Proença**: Design Space Exploration as a Service: a Prototype
 
 
-## Undergrad Students
+## Undergraduate Students
 
--   Emanuel Lima (University of São Paulo)
-    -   Autotuning rustc and LLVM Optimizations
+-   **Emanuel Lima de Souza**: LLVM Pass Selection for Rust Programs
